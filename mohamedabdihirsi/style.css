@@ -5,7 +5,7 @@
 @font-face{font-family:"Playfair Display";font-weight:700;font-style:normal;font-display:swap;src:url(fonts/playfair-display-latin-700-normal.woff2) format("woff2")}
 @font-face{font-family:"Playfair Display";font-weight:800;font-style:normal;font-display:swap;src:url(fonts/playfair-display-latin-800-normal.woff2) format("woff2")}
 :root{--bg:#E5D3AF;--ink:#3d070c;--mute:#7a4a4d;--line:#c9b182;--panel:#dbc79c;--acc:#790D16;--on:#E5D3AF;--font:"Inter",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
-@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#790D16;--ink:#E5D3AF;--mute:#d3b996;--line:#9a3a42;--panel:#650a12;--acc:#E5D3AF;--on:#790D16}}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#000000;--ink:#E5D3AF;--mute:#d3b996;--line:#9a3a42;--panel:#650a12;--acc:#E5D3AF;--on:#790D16}}
 :root[data-theme=dark]{--bg:#790D16;--ink:#E5D3AF;--mute:#d3b996;--line:#9a3a42;--panel:#650a12;--acc:#E5D3AF;--on:#790D16}
 html{scroll-behavior:smooth;scroll-padding-top:calc(72px + env(safe-area-inset-top,0px))}
 *,*::before,*::after{box-sizing:border-box}
